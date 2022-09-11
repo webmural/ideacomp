@@ -5,19 +5,8 @@
 
 :root {
   color: #200222;
-  background: skyblue;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    background: deepskyblue;
-  }
-}
-
-@media (prefers-contrast: less) {
-  :root {
-    color: #33113d;
-  }
+  background-color: mistyrose;
+  background-image: linear-gradient(orangered, deeppink, hotpink, salmon, coral, orchid, mediumorchid);
 }
 
 :any-link {
